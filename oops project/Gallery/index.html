@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="nature">
+            <div>
+                <img src="img/adam-kool-ndN00KmbJ1c-unsplash.jpg" title="nature-1" class="img" data-id="1"
+                    alt="nature-1">
+            </div>
+            <div>
+                <img src="img/dawid-zawila--G3rw6Y02D0-unsplash.jpg" title="nature-2" class="img" data-id="2"
+                    alt="nature-2">
+            </div>
+            <div>
+                <img src="img/eberhard-grossgasteiger-y2azHvupCVo-unsplash.jpg" title="nature-3" class="img" data-id="3"
+                    alt="nature-3">
+            </div>
+        </div>
+        <div class="other-photo">
+            <div>
+                <img src="img/oc-gonzalez-xg8z_KhSorQ-unsplash.jpg" title="other-1" data-id="1" class="img"
+                    alt="city-5">
+            </div>
+            <div>
+                <img src="img/robert-lukeman-_RBcxo9AU-U-unsplash.jpg" title="other-2" data-id="2" class="img"
+                    alt="city-5">
+            </div>
+            <div>
+                <img src="img/tim-swaan-eOpewngf68w-unsplash.jpg" title="other-3" data-id="3" class="img" alt="city-5">
+            </div>
+            <div>
+                <img src="img/v2osk-1Z2niiBPg5A-unsplash.jpg" title="other-4" data-id="4" class="img" alt="city-5">
+            </div>
+            <div>
+                <img src="img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" title="other-5" data-id="5" class="img"
+                    alt="city-5">
+            </div>
+        </div>
+        <div class="modal">
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content">
+                <!-- prev next buttons -->
+                <button class="prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <!-- content -->
+                <img src="img/oc-gonzalez-xg8z_KhSorQ-unsplash.jpg" class="main-img" alt="">
+                <h3 class="image-name">city-2</h3>
+                <div class="modal-images">
+                    <img src="img/oc-gonzalez-xg8z_KhSorQ-unsplash.jpg" title=" city-1" data-id="1" class="modal-img">
+                    <img src="img/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg" title="city-5" data-id="5"
+                        class="modal-img selected">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
