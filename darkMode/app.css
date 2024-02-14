@@ -1,0 +1,117 @@
+/*
+===============
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/*
+===============
+Variables
+===============
+*/
+
+:root {
+    --clr-bcg: #fff;
+    --clr-font: #282c35;
+    --clr-primary: #d23669;
+    --clr-grey: #64748b;
+}
+
+.dark-theme {
+    --clr-bcg: #282c35;
+    --clr-font: #fff;
+    --clr-primary: #ffa7c4;
+    --clr-grey: #cbd5e1;
+}
+
+/*
+===============
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-bcg);
+    color: var(--clr-font);
+    line-height: 1.5;
+    /* font-size: 0.875rem; */
+    transition: all 0.3s linear;
+}
+
+/* section */
+.section {
+    padding: 5rem 0;
+}
+
+main {
+    width: 45vw;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/*
+===============
+dark mode
+===============
+*/
+
+.btn {
+    border: none;
+    background-color: var(--clr-primary);
+    font-size: 1.2rem;
+    padding: 0.2rem 0.89rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: var(--clr-bcg);
+    border-radius: 10px;
+}
+
+
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+span {
+    color: var(--clr-grey);
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+.main-container {
+    padding: 7rem 0;
+}
+
+article {
+    margin-bottom: 3rem;
+}
+
+article h1 {
+    color: var(--clr-primary);
+}
+
+p {
+    padding: 0.89rem 0;
+}
+
+@media screen and (max-width : 850px) {
+    main {
+        width: 90%;
+    }
+}
