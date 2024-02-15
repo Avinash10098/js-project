@@ -1,0 +1,88 @@
+const products = [
+    {
+        id: 'Ikea',
+        title: 'high-back bench',
+        company: 'ikea',
+        image: 'img/adam-winger-t4oVP2xFMJ8-unsplash.jpg',
+        price: 9.99,
+    },
+    {
+        id: 'Liddy',
+        title: 'albany table',
+        company: 'marcos',
+        image: 'img/call-me-fred-wn1oribC5Vo-unsplash.jpg',
+        price: 79.99,
+    },
+    {
+        id: 'Ikea',
+        title: 'accent chair',
+        company: 'caressa',
+        image: 'img/daniil-silantev-1P6AnKDw6S8-unsplash.jpg',
+        price: 25.99,
+    },
+    {
+        id: 'Liddy',
+        title: 'wooden table',
+        company: 'caressa',
+        image: 'img/erfan-amiri-N2pDe6fOVVI-unsplash.jpg',
+
+        price: 45.99,
+    },
+    {
+        id: 'Ikea',
+        title: 'dining table',
+        company: 'caressa',
+        image: 'img/goran-ivos-d74sP6dnt_I-unsplash.jpg',
+
+        price: 6.99,
+    },
+    {
+        id: 'Marcos',
+        title: 'sofa set',
+        company: 'liddy',
+        image: 'img/hadi-yazdi-aznaveh-FoTZazW3WxY-unsplash.jpg',
+        price: 69.99,
+    },
+    {
+        id: 'Marcos',
+        title: 'modern bookshelf',
+        company: 'marcos',
+        image: 'img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg',
+        price: 8.99,
+    },
+    {
+        id: 'Caressa',
+        title: 'emperor bed',
+        company: 'liddy',
+        image: 'img/inside-weather-dbH_vy7vICE-unsplash.jpg',
+        price: 21.99,
+    },
+    {
+        id: 'Caressa',
+        title: 'utopia sofa',
+        company: 'marcos',
+        image: 'img/katja-rooke-77JACslA8G0-unsplash.jpg',
+        price: 39.95,
+    },
+    {
+        id: 'Liddy',
+        title: 'entertainment center',
+        company: 'liddy',
+        image: 'img/naomi-hebert-2dcYhvbHV-M-unsplash.jpg',
+        price: 29.98,
+    },
+    {
+        id: 'Caressa',
+        title: 'albany sectional',
+        company: 'ikea',
+        image: 'img/paul-weaver-nWidMEQsnAQ-unsplash.jpg',
+        price: 10.99,
+    },
+    {
+        id: 'Liddy',
+        title: 'leather sofa',
+        company: 'liddy',
+        image: 'img/sven-brandsma-GZ5cKOgeIB0-unsplash.jpg',
+        price: 9.99,
+    },
+];
