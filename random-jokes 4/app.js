@@ -5,10 +5,14 @@ const btn = document.querySelector('.btn');
 const content = document.querySelector('.content');
 
 btn.addEventListener('click', async () => {
-    const data = await fetch(url);
-    const response = await data.json();
-    displayData(response);
 
+    try {
+        const data = await fetch(url);
+        const response = await data.json();
+        displayData(response);
+    } catch (err) {
+        console.log(err);
+    }
 });
 function displayData({ value: jokes }) {
     //destructuring the object
