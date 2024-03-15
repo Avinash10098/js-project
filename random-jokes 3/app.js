@@ -17,6 +17,6 @@ function displayData({ value: jokes }) {
     content.textContent = jokes;
     // you can also do the same
 
-    // const data = JSON.parse(xhr.responseText);
+    //JSON.parse(xhr.responseT const data = ext);
     // content.textContent = data.value;
 }
