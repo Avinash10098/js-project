@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+</head>
+
+<body>
+    <div id="product-part1">
+        <nav>
+            <div>
+                <button class="toggle-nav" id="bar">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul id="show">
+                <li><a href="index.html">home</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+            <img src="image/logo-black.svg" alt="">
+            <div class="cart-container">
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="circle">0</span>
+                </button>
+            </div>
+        </nav>
+        <section class="res-nav">
+            <div class="res-nav-container">
+                <button class="res-nav-close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="sidebar-links">
+                    <li>
+                        <a class="sidebar-link" href="index.html">
+                            <i class="fas fa-home fa-fw"></i>
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" href="product.html">
+                            <i class="fas fa-couch fa-fw"></i>
+                            products
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sidebar-link" href="about.html">
+                            <i class="fas fa-book fa-fw"></i>
+                            about
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <div class="product-div">
+            <h1>home / <span class="change">product</span></h1>
+        </div>
+        <div class="cart-overlay">
+            <aside class="cart">
+                <button class="cart-close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <header>
+                    <h3 class="text-slanted">your bag</h3>
+                </header>
+                <div class="cart-items">
+                    <!-- <article class="cart-item" data-id="rec4f2RIftFCb7aHh">
+                        <img src="https://course-api.com/images/store/product-2.jpeg" class="cart-item-img"
+                            alt="albany table">
+                        <div>
+                            <h4 class="cart-item-name">albany table</h4>
+                            <p class="cart-item-price" id="price">$79.99</p>
+                            <button class="cart-item-remove-btn" data-id="rec4f2RIftFCb7aHh">remove</button>
+                        </div>
+
+                        <div>
+                            <button class="cart-item-increase-btn" data-id="rec4f2RIftFCb7aHh">
+                                <i class="fas fa-chevron-up"></i>
+                            </button>
+                            <p class="cart-item-amount" data-id="rec4f2RIftFCb7aHh">1</p>
+                            <button class="cart-item-decrease-btn" data-id="rec4f2RIftFCb7aHh">
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                        </div>
+                    </article> -->
+                </div>
+                <footer>
+                    <h3 class="cart-total text-slanted">
+                        total : $12.99
+                    </h3>
+                    <button class="cart-checkout btn">checkout</button>
+                </footer>
+            </aside>
+        </div>
+        <div class="container-of-singleProduct">
+            <img class="image" src="image/product-1.jpeg" alt="">
+            <div class="section-container">
+                <div class="single-product-page">
+                    <h1 class="titel">table</h1>
+                    <h2 class="conpany-name"><i>By dark</i></h2>
+                    <p class="single-product-price">$8</p>
+                </div>
+                <div class="circle-container">
+                    <span class="orange"></span>
+                    <span class="black"></span>
+                </div>
+                <div class="information-div">
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo totam architecto
+                        voluptate quo,
+                        iure eveniet delectus quas incidunt exercitationem quia laboriosam libero autem fuga veritatis
+                        rerum fugiat molestias accusamus pariatur modi, ex porro inventore nisi debitis hic?
+                        Consequuntur, similique omnis. Labore totam iusto eaque ratione.</p>
+                </div>
+                <button class="addTocart-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="page-loading">
+            <h1>Loading....</h1>
+        </div>
+    </div>
+    <script type="module" src="singlepro.js"></script>
+</body>
+
+</html>
